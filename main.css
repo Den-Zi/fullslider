@@ -131,4 +131,18 @@
 }
 .container.active .bar:after {
   transform: translateY(0) rotate(-45deg);
+}
+.container.active .main {
+  animation: main-animation 2s ease;
+  cursor: pointer;
+  transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+}
+
+@keyframes main-animation {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -128,6 +128,9 @@
     }
 }
 
+//shadows
+
+
 // Anima
 
 .container.active {
@@ -140,5 +143,23 @@
         &:after {
             transform: translateY(0) rotate(-45deg);
         }
+    }
+
+    .main {
+        animation: main-animation 2s ease;
+        cursor: pointer;
+        transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+    }
+}
+
+
+
+// keyframes
+@keyframes main-animation {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
     }
 }
