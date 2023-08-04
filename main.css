@@ -88,7 +88,22 @@
   position: relative;
 }
 .container .main header.header__one {
+  background: url("/img/bg1.jpg") no-repeat center/cover;
+}
+.container .main header.header__two {
   background: url("/img/bg2.jpg") no-repeat center/cover;
+}
+.container .main header.header__tree {
+  background: url("/img/bg4.jpg") no-repeat center/cover;
+}
+.container .main header.header__fo {
+  background: url("/img/bg2.jpg") no-repeat center/cover;
+}
+.container .main header.header__five {
+  background: url("/img/bg5.jpg") no-repeat center/cover;
+}
+.container .main header.header__sixe {
+  background: url("/img/bg11.jpg") no-repeat center/cover;
 }
 .container .main header .header {
   position: absolute;
