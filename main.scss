@@ -149,6 +149,9 @@
     }
  }
 
+
+ // links
+
 // Anima
 
 .container.active {
@@ -167,6 +170,12 @@
         animation: main-animation 1s ease;
         cursor: pointer;
         transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+        &:hover {
+            transform: perspective(1300px) rotateY(20deg) translateZ(340px) scale(0.5);
+            +.shadow.one {
+                transform: perspective(1300px) rotateY(20deg) translateZ(230px) scale(0.5);
+            }
+        }
     }
 
     .shadow.one {

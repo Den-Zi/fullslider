@@ -157,6 +157,12 @@
   cursor: pointer;
   transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
 }
+.container.active .main:hover {
+  transform: perspective(1300px) rotateY(20deg) translateZ(340px) scale(0.5);
+}
+.container.active .main:hover + .shadow.one {
+  transform: perspective(1300px) rotateY(20deg) translateZ(230px) scale(0.5);
+}
 .container.active .shadow.one {
   animation: swadow-one 0.6s ease-out;
   transform: perspective(1300px) rotateY(20deg) translateZ(215px) scale(0.5);
